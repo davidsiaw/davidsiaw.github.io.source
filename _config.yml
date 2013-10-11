@@ -3,9 +3,9 @@
 # ----------------------- #
 
 url: http://davidsiaw.github.io
-title: My Octopress Blog
-subtitle: A blogging framework for hackers.
-author: Your Name
+title: ./home/davidsiaw
+subtitle: Dave's blog
+author: davidsiaw
 simple_search: http://google.com/search
 description:
 
