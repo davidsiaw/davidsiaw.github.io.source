@@ -16,6 +16,7 @@ type: post
 published: true
 meta:
   _syntaxhighlighter_encoded: '1'
+comments: true
 ---
 
 Given two arrays of integers: a and b, what does (a == b) mean?

@@ -9,6 +9,7 @@ type: post
 published: true
 meta:
   _edit_last: '2'
+comments: true
 ---
 After some interesting discussion with a friend, I've decided to try my hand at coding a resource pool like Apache's APR pools. I'm gonna call my pool b_pool, which stands for bunny pool.
 

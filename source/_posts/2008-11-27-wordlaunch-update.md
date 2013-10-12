@@ -9,6 +9,7 @@ type: post
 published: true
 meta:
   _edit_last: '2'
+comments: true
 ---
 Some personal problems this week have delayed development but I'm not one with a faint heart! This week's project is still going. Here is version 0.1! It allows you to edit your pages, and it probably still needs a lot of work before its any good at solving my rant that started this project, but I guess this is a start.
 

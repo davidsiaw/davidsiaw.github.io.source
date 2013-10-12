@@ -9,6 +9,7 @@ type: post
 published: true
 meta:
   _edit_last: '2'
+comments: true
 ---
 Today I was asked by a friend to help with his programming assignment. His program needs to take in a number and output the prime factors of the number. For example, 60 = (2^2)(3^1)(5^1)
 

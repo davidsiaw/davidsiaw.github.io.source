@@ -10,6 +10,7 @@ published: true
 meta:
   _edit_last: '2'
   _syntaxhighlighter_encoded: '1'
+comments: true
 ---
 Today I read an interesting chapter in Writing Solid Code, and it showed an example where a supposed optimization led to code bloat:
 

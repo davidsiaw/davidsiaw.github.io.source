@@ -12,6 +12,7 @@ status: publish
 type: post
 published: true
 meta: {}
+comments: true
 ---
 <a href="http://www.phy.syr.edu/courses/java-suite/crosspro.html">[This]</a> is a very nice Java applet that allows you to see what a cross product is. The applet shows A x B = C (i.e. C is the cross product of A and B) in 3 dimensions. You can drag A and B around to see the effects on C.
 

@@ -15,6 +15,7 @@ published: true
 meta:
   _edit_last: '2'
   _syntaxhighlighter_encoded: '1'
+comments: true
 ---
 Try this:
 

@@ -9,6 +9,7 @@ type: post
 published: true
 meta:
   _edit_last: '2'
+comments: true
 ---
 
 As far back as I can tell, while I have used C, there was never a time when I didn't have to write abstractions to make it easier to see that I am doing something in particular. Every knowledgeable C programmer would know that abstractions tend to make code easier to read, reducing the cost of maintenance, but it also incurs a performance penalty, as a result of data structure translations and additional function calls.

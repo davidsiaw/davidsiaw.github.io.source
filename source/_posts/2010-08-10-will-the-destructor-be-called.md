@@ -15,6 +15,7 @@ published: true
 meta:
   _edit_last: '2'
   _syntaxhighlighter_encoded: '1'
+comments: true
 ---
 Here's a C++ quiz for all of you: somefunc() will be called from a thread. Do you think this destructor will be called?
 

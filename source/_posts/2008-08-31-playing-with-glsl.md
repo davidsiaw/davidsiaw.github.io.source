@@ -15,6 +15,7 @@ type: post
 published: true
 meta:
   _edit_last: '2'
+comments: true
 ---
 After puzzling some time over the tutorials in <a href="http://www.lighthouse3d.com/opengl/glsl/">Lighthouse3D</a>, I finally learned how to prepare a GLSL shader and use it in an OpenGL render. In the beginning I thought a shader could be used on a particular set of vertices and fragments. However, it turned out that the shader was run every frame on every vertex and fragment you gave OpenGL to use. This meant that if you made a simple fragment shader that coloured the current fragment red, then everything you draw on the screen will be red. It turns out the shader replaces the so-called fixed-functionality in the rendering pipeline, which is basically a little assembly line where all the vertices and colours given to the video card gets processed. So instead of having the workers work their normal routine, a shader tells them what to do instead. To be honest I felt a little disappointed since I could not write something like actionscript would allow me to do, but I guess that is just because it isn't meant to be actionscript.
 

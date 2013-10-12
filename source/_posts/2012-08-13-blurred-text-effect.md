@@ -15,6 +15,7 @@ type: post
 published: true
 meta:
   _syntaxhighlighter_encoded: '1'
+comments: true
 ---
 
 I came across a strange site that blurred the text of answers and asked the reader to sign up to see it. It was strange because the text was already there, just blurred via css. I thought it was an interesting little snippet so I decided to record it.

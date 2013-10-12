@@ -9,6 +9,7 @@ type: post
 published: true
 meta:
   _edit_last: '2'
+comments: true
 ---
 So I've been working on a memory pool lately as a hobby project, and I've come across some things that I haven't found a solution that would satisfy my gut yet. But, after reading this: 
 

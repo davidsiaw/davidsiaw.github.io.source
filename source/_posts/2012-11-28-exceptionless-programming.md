@@ -14,6 +14,7 @@ published: true
 meta:
   _edit_last: '2'
   _syntaxhighlighter_encoded: '1'
+comments: true
 ---
 
 I am a big fan of writing code that generates no runtime errors. This is an implementation of a function that takes the first element of an array.

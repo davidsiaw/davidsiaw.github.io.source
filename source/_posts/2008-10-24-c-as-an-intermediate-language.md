@@ -9,5 +9,6 @@ type: post
 published: false
 meta:
   _edit_last: '2'
+comments: true
 ---
 

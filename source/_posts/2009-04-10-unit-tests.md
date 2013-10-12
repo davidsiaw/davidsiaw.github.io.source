@@ -9,6 +9,7 @@ type: post
 published: false
 meta:
   _edit_last: '2'
+comments: true
 ---
 Tests are extremely important in software, especially unit tests. I would go as far as saying that tests should be a core part of all the code that you write. Tests however, are also very unpopular among programmers, and many programmers don't write them at all. That's right. I'm saying that 90% of the programmers I have ever met almost never write tests for their code. Writing tests seem like a waste of time to most people, despite how important they are, and are thrown to the back of a priorities list that is topped with new features and urgent bug fix tasks.
 

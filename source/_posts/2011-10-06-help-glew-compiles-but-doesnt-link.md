@@ -17,6 +17,7 @@ published: true
 meta:
   _edit_last: '2'
   _syntaxhighlighter_encoded: '1'
+comments: true
 ---
 When you compile the glew_static project from glew on Visual Studio and link it with your program, you may get something like this:
 

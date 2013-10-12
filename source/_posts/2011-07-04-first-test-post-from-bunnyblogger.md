@@ -14,6 +14,7 @@ status: publish
 type: post
 published: true
 meta: {}
+comments: true
 ---
 <iframe width="480" height="390" src="http://www.youtube.com/embed/FvhGhKragpI" frameborder="0" allowfullscreen></iframe>
 

@@ -11,6 +11,7 @@ status: publish
 type: post
 published: true
 meta: {}
+comments: true
 ---
 I always prefer initializing my class through the use of a constructor like this:
 

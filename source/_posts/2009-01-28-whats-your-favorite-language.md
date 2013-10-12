@@ -9,6 +9,7 @@ type: post
 published: true
 meta:
   _edit_last: '2'
+comments: true
 ---
 A friend asked me what my favorite language is today, and showed me a <a href="http://www.aegisub.net/2008/12/if-programming-languages-were-religions.html">page about parallels drawn between computer languages and religons</a>. I told him I didn't have a favorite language anymore. I did once upon a time, and that language was C++. But the reason it was my favorite language was because it was the only language I knew at the time. Well, not really, I knew 1 other language, PHP, but I didn't use it much, so it was still C++.
 

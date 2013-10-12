@@ -19,6 +19,7 @@ published: true
 meta:
   _edit_last: '2'
   _syntaxhighlighter_encoded: '1'
+comments: true
 ---
 I find myself wanting to do this sometimes, so here's a bit of code (I'm sure I stole this code from somewhere else);
 

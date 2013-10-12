@@ -14,6 +14,7 @@ type: post
 published: true
 meta:
   _edit_last: '2'
+comments: true
 ---
 Sometimes when one writes regexes, Its hard to know what needs to be escaped and what doesn't. But I've solved that problem while I was writing a program that generated my regexes for me. Now I have a snippet that both humans and programs can use to write regexes!
 

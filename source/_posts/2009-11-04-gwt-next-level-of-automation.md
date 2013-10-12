@@ -9,6 +9,7 @@ type: post
 published: true
 meta:
   _edit_last: '2'
+comments: true
 ---
 After playing a little with GWT, and attempting to add a map into my little webapp, I've found that this is really a very good idea. By applying a language to abstract all the small difficulties of programming a webpage for different browsers, you essentially move a larger percentage of the work into actually making the application. 
 

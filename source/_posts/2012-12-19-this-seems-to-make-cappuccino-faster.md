@@ -12,6 +12,7 @@ type: post
 published: true
 meta:
   _syntaxhighlighter_encoded: '1'
+comments: true
 ---
 My lack of knowledge about Cappuccino's implementation details may play a role, but
 

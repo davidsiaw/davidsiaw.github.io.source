@@ -9,6 +9,7 @@ type: post
 published: false
 meta:
   _edit_last: '2'
+comments: true
 ---
 <iframe width="420" height="315" src="//www.youtube.com/embed/wipug2xJx-A" frameborder="0" allowfullscreen></iframe>
 

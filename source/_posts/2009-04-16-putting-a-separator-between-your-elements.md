@@ -13,6 +13,7 @@ type: post
 published: true
 meta:
   _edit_last: '2'
+comments: true
 ---
 Often when I'm programming, I'll need to list a bunch of stuff and put commas between them. Like this:
 

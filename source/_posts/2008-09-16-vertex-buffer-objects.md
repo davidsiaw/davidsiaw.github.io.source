@@ -18,6 +18,7 @@ type: post
 published: true
 meta:
   _edit_last: '2'
+comments: true
 ---
 In my last post I mentioned that if you wanted to draw a large number of things on a screen, you need VBOs. Well, honestly at the time, I only knew what it was but never touched it before. VBOs are Vertex Buffer Objects, in other words, boxes in the GPU to store vertices, their colors, normals and attributes. After a considerable amount of Googling, I was finally able to learn what VBOs are and relate them to the intermediate mode. This would probably help those who have started openGL by learning glBegin and glEnd learn about what VBOs truly are, and why they exist.
 

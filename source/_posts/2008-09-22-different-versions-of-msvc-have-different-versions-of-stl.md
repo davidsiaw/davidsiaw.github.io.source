@@ -9,6 +9,7 @@ type: post
 published: true
 meta:
   _edit_last: '2'
+comments: true
 ---
 Something that I have only recently noticed only after I have used MSVC for a while is that different versions of MSVC use different versions of the C++ standard template library. This isn't a problem, unless you are linking libraries statically that were built with different versions of MSVC. For example, a static library that uses the STL built with MSVC 2003 would not be linkable with a program built with MSVC 2005 without a considerable amount of dicking around.
 

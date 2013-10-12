@@ -19,6 +19,7 @@ type: post
 published: true
 meta:
   _edit_last: '2'
+comments: true
 ---
 For fun, and for the purpose of making a batch texture that can store characters for fonts, I have created a little tree based off <a href="http://www.blackpawn.com/texts/lightmaps/default.html">this tutorial by BlackPawn</a>. Basically, the idea here is to partition the original rectangle in such a way to get the maximum area out of the texture to hold the subtextures.
 
