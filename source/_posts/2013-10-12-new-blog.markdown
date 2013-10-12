@@ -5,6 +5,7 @@ date: 2013-10-12 16:03
 comments: true
 categories: 
 - Random
+tags: [octopress, jekyll, wordpress, github-pages, jekyll-bootstrap, blogging]
 ---
 
 As all of you may have noticed the theme has changed and the URL seems to have been redirected to Github. I decided to try out this github pages thing and it seems to work pretty well. The static content idea is really attractive to me and really gives me much more power over the pages with a small tradeoff for convenience. But convenience is a non-issue for most programmers who can write tools to make the inconvenient convenient.
