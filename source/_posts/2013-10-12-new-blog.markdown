@@ -11,6 +11,8 @@ As all of you may have noticed the theme has changed and the URL seems to have b
 
 What I want to talk about here is actually how I started doing this and why I ended up moving my blog across, along with what I learned along the way about Jekyll-Bootstrap, Octopress, Jekyll, the annoying problems and the process of migrating from a WordPress blog to a Octopress/Disqus duo.
 
+<!--more-->
+
 1. Github Pages
 ---------------
 
