@@ -7,6 +7,6 @@ git config --global push.default simple
 cp -r ../public/* .
 git add -u
 git commit -m `date +"Update Blog At %x %X %Z"`
-ssh-agent bash -c 'ssh-add ../deploy-key; git push';
+git push
 popd
 rm -rf davidsiaw.github.io
