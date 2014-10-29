@@ -3,9 +3,10 @@ git clone git@github.com:davidsiaw/davidsiaw.github.io
 pushd davidsiaw.github.io
 git config --global user.email "davidsiaw@gmail.com"
 git config --global user.name "David Siaw (via Travis CI)"
+git config --global push.default simple
 cp -r ../public/* .
 git add -u
-git commit -m "update blog"
+git commit -m `date +"Update Blog At %x %X %Z"`
 ssh-agent bash -c 'ssh-add ../deploy-key; git push';
 popd
 rm -rf davidsiaw.github.io
