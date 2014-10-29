@@ -1,0 +1,9 @@
+#!/bin/bash
+git clone git@github.com:davidsiaw/davidsiaw.github.io
+pushd davidsiaw.github.io
+cp -r ../public/* .
+git add -u
+git commit -m "update blog"
+ssh-agent bash -c 'ssh-add ../deploy-key; git push';
+popd
+rm -rf davidsiaw.github.io
