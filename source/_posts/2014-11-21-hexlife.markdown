@@ -24,17 +24,17 @@ In my search for a glider in this set of rules, I found a bunch of oscillators a
 
  Picture                                     | Description 
 ---------------------------------------------|--------------
-![Alt text](images/hexlife/2cell.png)        | The **2cell** is the simplest and most common oscillator. It is left behind by almost any unstable life.
-![Alt text](images/hexlife/spinner.png)      | The **Spinner** is another common oscillator that has a period of 2. It simply looks like it is spinning.
-![Alt text](images/hexlife/mouth.png)        | The **Mouth** looks like a spinner but instead of 2nd level adjacent, they are 3rd level adjacent, so it looks like it is always opening and closing
-![Alt text](images/hexlife/needle.png)       | The **Needle** has a period of 2 and flips back and forth.
-![Alt text](images/hexlife/dancer.png)       | The **Dancer** has a period of 2 and looks like its swinging back and forth.
-![Alt text](images/hexlife/star.png)         | The **Star** looks like a twinkling star. It is quite peculiar in the sense that it has a period of 3.
-![Alt text](images/hexlife/rotator.png)      | The **Rotator** has a period of 4 and looks like it is spinning in a weird way.
-![Alt text](images/hexlife/bat.png)          | The **Bat** is perhaps the most common 4-period oscillator you get from random starts.
-![Alt text](images/hexlife/snake.png)        | The **Snake** is a period-4 oscillator that looks like a snake that wiggles around
-![Alt text](images/hexlife/morpher.png)      | The **Morpher** is really simple but really interesting-looking oscillator. It has got a period of 12 and transforms into all its possible orientations. This means that even though it has no symmetry, it does not matter which way you orient it, it will achieve the same configurations. I call this temporal homogeneity.
-![Alt text](images/hexlife/tristar.png)      | The **Tristar** is a period-12 oscillator that twinkles in a more elaborate way than the star.
-![Alt text](images/hexlife/swimmer.png)      | The **Swimmer** is an oscillator with a period of 48. You can actually find it on the Wikipedia page I linked. It seems like a lost fish swimming back and forth.
+![Alt text](/images/hexlife/2cell.png)        | The **2cell** is the simplest and most common oscillator. It is left behind by almost any unstable life.
+![Alt text](/images/hexlife/spinner.png)      | The **Spinner** is another common oscillator that has a period of 2. It simply looks like it is spinning.
+![Alt text](/images/hexlife/mouth.png)        | The **Mouth** looks like a spinner but instead of 2nd level adjacent, they are 3rd level adjacent, so it looks like it is always opening and closing
+![Alt text](/images/hexlife/needle.png)       | The **Needle** has a period of 2 and flips back and forth.
+![Alt text](/images/hexlife/dancer.png)       | The **Dancer** has a period of 2 and looks like its swinging back and forth.
+![Alt text](/images/hexlife/star.png)         | The **Star** looks like a twinkling star. It is quite peculiar in the sense that it has a period of 3.
+![Alt text](/images/hexlife/rotator.png)      | The **Rotator** has a period of 4 and looks like it is spinning in a weird way.
+![Alt text](/images/hexlife/bat.png)          | The **Bat** is perhaps the most common 4-period oscillator you get from random starts.
+![Alt text](/images/hexlife/snake.png)        | The **Snake** is a period-4 oscillator that looks like a snake that wiggles around
+![Alt text](/images/hexlife/morpher.png)      | The **Morpher** is really simple but really interesting-looking oscillator. It has got a period of 12 and transforms into all its possible orientations. This means that even though it has no symmetry, it does not matter which way you orient it, it will achieve the same configurations. I call this temporal homogeneity.
+![Alt text](/images/hexlife/tristar.png)      | The **Tristar** is a period-12 oscillator that twinkles in a more elaborate way than the star.
+![Alt text](/images/hexlife/swimmer.png)      | The **Swimmer** is an oscillator with a period of 48. You can actually find it on the Wikipedia page I linked. It seems like a lost fish swimming back and forth.
 
 If you find more oscillators please leave a comment!
