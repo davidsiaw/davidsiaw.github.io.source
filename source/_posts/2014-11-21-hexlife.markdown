@@ -4,7 +4,7 @@ title: "Hexlife"
 date: 2014-11-21 10:46
 comments: true
 categories: 
-- Random
+- Hexlife
 tags: [hexagonal grid, game of life, ca, cellular automata]
 ---
 
