@@ -4,6 +4,7 @@ title: "Script for setting up FTP to a folder on a Mac"
 date: 2015-01-23 10:34
 comments: true
 categories: 
+- Programming
 ---
 
 This script came in handy many times when I had to share things with my other laptops or windows users.

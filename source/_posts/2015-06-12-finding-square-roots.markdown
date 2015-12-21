@@ -3,7 +3,8 @@ layout: post
 title: "Finding Square Roots"
 date: 2015-06-12 01:36
 comments: true
-categories: 
+categories:
+- Math
 ---
 
 Most of us has at some point in our lives used the `Math.sqrt()` function. We would even know that \\(\sqrt{2} = 1.414\ldots\\). However, we never really give how it is implemented a second thought. Thus is the power of a tight abstraction. For those of us who lived in the age of calculators, finding square roots has always been a source of mystery. For me during my teenage years, calculating a square root has really just been about looking up a numeric table.

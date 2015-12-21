@@ -4,7 +4,7 @@ title: "Using Travis to deploy my blog"
 date: 2014-10-30 01:07
 comments: true
 categories: 
-- Random
+- Programming
 tags: [travis, blog]
 ---
 
