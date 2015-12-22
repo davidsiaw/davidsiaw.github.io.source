@@ -166,4 +166,97 @@ Of course, the same rule slightly modified works for the \\(cos(x)\\) form:
 
 Note that this only works if \\(f\\) eventually derives into 0, and if the trigonometric function is \\(sin(x)\\) or \\(cos(x)\\). Otherwise you will need another method of finding the solution. 
 
+## Weird Application
+
+With this we can try and verify that what I said was true by trying to use it on a very special function that does not change even when under differentiation: \\(e\^x\\). Even though I said this only works if it eventually derives to zero, let us try anyway:
+
+So for this let us try the following function:
+
+\\[\int{e\^x\,sin(x)\,dx}\\]
+
+This should give us
+
+\\[
+\begin{align}
+ \int{e\^x\,sin(x)\,dx} &amp; = (- e\^x + e\^x - e\^x + \cdots)\,cos(x) + (e\^x - e\^x + e\^x - \cdots)\,sin(x) &amp; \\cr
+  &amp; = (- e\^x + e\^x - e\^x + \cdots)\,cos(x) - (-e\^x + e\^x - e\^x + \cdots)\,sin(x) &amp; \text{If we flip the sign}\\cr
+  &amp; = (- e\^x + e\^x - e\^x + \cdots)(cos(x) - sin(x)) &amp; \text{Hence} \\cr
+  &amp; = (-1+1-1+\cdots)(e\^x)(cos(x) - sin(x)) &amp;
+\end{align}
+\\]
+
+We are left with a strange, almost nonsensical looking sum that looks like it should evaluate to zero, but does it?
+
+\\[
+\begin{align}
+ S &amp; = -1+1-1+1-1+1\cdots \\cr
+ S &amp; = -1-S \\cr
+ 2S &amp; = -1 \\cr
+ S &amp; = -\frac{1}{2} \\cr
+\end{align}
+\\]
+
+Oh so that infinite sum actually evaluates to \\(-\frac{1}{2}\\). This may seem dubious but proving that is outside the scope of this post. (Lots of people have done it anyway.) This just means that our thing above should look like this:
+
+\\[
+\begin{align}
+ \int{e\^x\,sin(x)\,dx}&amp; = (-1+1-1+\cdots)(e\^x)(cos(x) - sin(x)) \\cr
+ &amp; = -\frac{1}{2}(e\^x)(cos(x) - sin(x)) \\cr
+ &amp; = \frac{1}{2}(e\^x)(sin(x)-cos(x)) \\cr
+\end{align}
+\\]
+
+But is this correct? We must try and check again that we did not just stumble on nonsense.
+
+## Verifying again
+
+To verify, let us perform it again with good ol' integration by parts.
+
+\\[\int{e\^x\,sin(x)\,dx}\\]
+
+\\[
+\begin{array}{cc}
+ \begin{aligned}
+  \int{u\,dv} &amp; = uv\, - \int{v\,du} \\cr
+  \int{sin(x)(e\^x)\,dx} &amp; =  sin(x)(e\^x)\, - \int{e\^x\,cos(x)\,dx}
+ \end{aligned} &amp;
+ \begin{aligned}
+  u &amp; = sin(x) \\cr
+  du &amp; = cos(x)\,dx \\cr
+  dv &amp; = e\^x\,dx \\cr
+  v &amp; = e\^x
+ \end{aligned} 
+\end{array}
+\\]
+
+We have to do this integration again for \\(cos(x)\\), so let us do so.
+
+\\[
+\begin{array}{cc}
+ \begin{aligned}
+  \int{u\,dv} &amp; = uv\, - \int{v\,du} \\cr
+  \int{e\^x\,cos(x)\,dx} &amp; =  cos(x)(e\^x)\, + \int{e\^x\,sin(x)\,dx}
+ \end{aligned} &amp;
+ \begin{aligned}
+  u &amp; = cos(x) \\cr
+  du &amp; = -sin(x)\,dx \\cr
+  dv &amp; = e\^x\,dx \\cr
+  v &amp; = e\^x
+ \end{aligned} 
+\end{array}
+\\]
+
+Substituting back, we get:
+
+\\[
+\begin{aligned}
+ \int{sin(x)(e\^x)\,dx} &amp; = sin(x)(e\^x)\, - \int{e\^x\,cos(x)\,dx} \\cr
+ &amp; = sin(x)(e\^x)\, - cos(x)(e\^x)\, - \int{e\^x\,sin(x)\,dx} \\cr
+ 2\int{sin(x)(e\^x)\,dx} &amp; = sin(x)(e\^x)\, - cos(x)(e\^x) \\cr
+ &amp; = \frac{1}{2}(e\^x)(sin(x)-cos(x))
+\end{aligned} 
+\\]
+
+Which is the same result we got before, proving that we didn't screw up.
+
 With this, you can find the indefinite integral of expressions of this form by simply differentiating the non-trigonometric side. You can also use identities, factorizations and other ways to rearrange an expression into this form to use this technique to integrate this otherwise troublesome class of **Rotating Integrals**.
