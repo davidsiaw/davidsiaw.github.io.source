@@ -253,7 +253,7 @@ Substituting back, we get:
  \int{sin(x)(e\^x)\,dx} &amp; = sin(x)(e\^x)\, - \int{e\^x\,cos(x)\,dx} \\cr
  &amp; = sin(x)(e\^x)\, - cos(x)(e\^x)\, - \int{e\^x\,sin(x)\,dx} \\cr
  2\int{sin(x)(e\^x)\,dx} &amp; = sin(x)(e\^x)\, - cos(x)(e\^x) \\cr
- &amp; = \frac{1}{2}(e\^x)(sin(x)-cos(x))
+ \int{sin(x)(e\^x)\,dx} &amp; = \frac{1}{2}(e\^x)(sin(x)-cos(x))
 \end{aligned} 
 \\]
 
