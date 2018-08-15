@@ -2,7 +2,7 @@
 git clone git@github.com:davidsiaw/davidsiaw.github.io
 pushd davidsiaw.github.io
 git config --global user.email "davidsiaw@gmail.com"
-git config --global user.name "David Siaw (via Travis CI)"
+git config --global user.name "David Siaw (via Circle CI)"
 git config --global push.default simple
 cp -r ../public/* .
 git add -u

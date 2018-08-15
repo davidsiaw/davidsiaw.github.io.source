@@ -7,4 +7,15 @@ before_install:
 - cp deploy-key ~/.ssh/id_rsa
 script:
 - bundle exec rake generate
-- bash deploy
+deploy:
+  repo: davidsiaw/davidsiaw.github.io
+  email: davidsiaw@gmail.com
+  name: David Siaw (via Travis CI)
+  local-dir: public
+  target-branch: master
+  provider: pages
+  skip-cleanup: true
+  github-token: $GITHUB_TOKEN  # Set in the settings page of your repository, as a secure variable
+  keep-history: true
+  on:
+    branch: master
