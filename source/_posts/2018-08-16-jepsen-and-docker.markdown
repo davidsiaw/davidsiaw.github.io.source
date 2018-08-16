@@ -179,14 +179,14 @@ In short I have a few thoughts:
 2. The analysis tool sucks
 3. This can be so much more general
 
-### Using docker is way cool
+### Using docker is way cool  aaa
 
 While Aphyr says that he uses his own LXC stuff to work with, I think its cool that he does provide a Docker interface. However he isn't taking advantage of a few things docker can do:
 
-a) Prebuilt docker containers
-b) Networking in docker that can be used to simulate faults
-c) Skewing clocks in the container
-d) Adding and removing new containers, simulating scaling effects and changing configuration
+a. Prebuilt docker containers
+b. Networking in docker that can be used to simulate faults
+c. Skewing clocks in the container
+d. Adding and removing new containers, simulating scaling effects and changing configuration
 
 It is probably because the tool is in its early stages of development, and really he knows how to use it the best, so he can do his stuff the best. But I can't help but feel he himself would benefit from some improvement in this domain. Perhaps he does not use it right now, or maybe he does in another way. I've only sat with this code for the last 4 hours.
 
