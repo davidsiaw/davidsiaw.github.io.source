@@ -179,7 +179,7 @@ In short I have a few thoughts:
 2. The analysis tool sucks
 3. This can be so much more general
 
-### Using docker is way cool  aaa
+### Using docker is way cool
 
 While Aphyr says that he uses his own LXC stuff to work with, I think its cool that he does provide a Docker interface. However he isn't taking advantage of a few things docker can do:
 
