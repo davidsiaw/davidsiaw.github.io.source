@@ -9,6 +9,7 @@ jobs:
           ssh-private-key: |-
             ${{ secrets.DEPLOYKEY }}
             ${{ secrets.SIGNINGKEY }}
+    - uses: ruby/setup-ruby@v1
     - name: push master
       env:
         AUTHOR_NAME: davidsiaw(ghactions)
