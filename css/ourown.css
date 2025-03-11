@@ -1,0 +1,17 @@
+body {
+  background-color: hsl(226 37% 12% / 1);
+}
+
+code {
+  background-color: hsl(233 28% 24% / 1);
+}
+
+.dropcap {
+  font-family: serif;
+  font-size: 4.8rem;
+  float: left;
+  margin-right: 0.2rem;
+  margin-top: -1.6rem;
+  margin-bottom: -2.6rem;
+  font-weight: 500;
+}
