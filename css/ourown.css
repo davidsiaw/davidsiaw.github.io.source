@@ -40,3 +40,23 @@ code {
   margin-bottom: -2.6rem;
   font-weight: 500;
 }
+
+.img-responsive {
+  padding: 9px;
+  margin: 0 0 10px;
+  border: 1px solid #3b3f5c;
+  border-radius: 4px;
+  max-height: 50rem;
+  max-width: 100%;
+
+  /* lighter background for transparent images */
+  background-color: #3b3f5c;
+  box-shadow: inset -9px -9px 0px 0px rgb(6 8 24),
+              inset 9px 9px 0px 0px rgb(6 8 24),
+              inset -9px 9px 0px 0px rgb(6 8 24),
+              inset 9px -9px 0px 0px rgb(6 8 24);
+}
+
+.table>tbody+tbody {
+  border-top: none;
+}

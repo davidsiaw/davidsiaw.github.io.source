@@ -1,3 +1,24 @@
+class CustomRender < Redcarpet::Render::HTML
+  def table(header, body)
+  	res = %{<table class="table">}
+
+  	if header
+  		res += %{<thead>#{header}</thead>}
+  	end
+
+  	if body
+  		res += %{<tbody>#{body}</tbody>}
+  	end
+  	res += body
+  	res += %{</table>}
+  	res
+  end
+
+  def image(link, title, alt_text)
+  	res = %{<img src="#{link}" alt="#{alt_text}" title="#{title}" class="img-responsive">}
+  end
+end
+
 
 class Post
   def initialize(filename)
@@ -47,26 +68,20 @@ class Post
     frontmatter['title']
   end
 
-  def content
-    markdown = Redcarpet::Markdown.new(
-      Redcarpet::Render::HTML,
+  def markdown
+  	@markdown ||= Redcarpet::Markdown.new(
+      CustomRender,
       autolink: true,
       tables: true,
       fenced_code_blocks: true
     )
+  end
 
-
+  def content
     markdown.render(rawinside).sub(/<p>([A-Z])/, '<p><span class="dropcap">\1</span>')
   end
 
   def short_content
-    markdown = Redcarpet::Markdown.new(
-      Redcarpet::Render::HTML,
-      autolink: true,
-      tables: true,
-      fenced_code_blocks: true
-    )
-
     markdown.render(rawinside[0..300] + '...')
   end
 
