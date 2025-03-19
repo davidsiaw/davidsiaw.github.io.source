@@ -13,18 +13,48 @@ def create_page(inf:, path:, title:, &block)
     menu do
 
       inf[:categories].each do |k, v|
-        nav k, :'folder-open', "/categories/#{k}"
-      end
-
-      nav 'History', :calendar, '' do
-        inf[:history].each do |k, v|
-          nav "#{k} (#{v.length})", :'calendar-minus-o', "/#{k}/"
+        if "#{path}" == "categories/#{k}"
+          nav k, :'folder-open', "/categories/#{k}"
+        else
+          nav k, :'folder', "/categories/#{k}"
         end
       end
 
-      nav 'Tags', :tags, '' do
+      history_open = false
+      inf[:history].each do |k, v|
+        if "/#{path}" == "/#{k}"
+          history_open = true
+        elsif path.start_with?(k)
+          history_open = true
+        end
+      end
+
+      nav 'History', :calendar, '', open: history_open do
+        inf[:history].each do |k, v|
+          if "/#{path}" == "/#{k}"
+            nav "#{k} (#{v.length})", :'calendar-check-o', "/#{k}"
+          elsif path.start_with?(k)
+            nav "#{k} (#{v.length}) <br><i class='fa fa-chevron-right'></i>#{title}", :'calendar-check-o', "/#{k}"
+          else
+            nav "#{k} (#{v.length})", :'calendar-o', "/#{k}"
+          end
+        end
+      end
+
+      tags_open = false
+      inf[:tags].each do |k, v|
+        if "/#{path}" == "/tags/#{k}"
+          tags_open = true
+        end
+      end
+
+      nav 'Tags', :tags, '', open: tags_open do
         inf[:tags].each do |k, v|
-          nav "#{k} (#{v.length})", :tag, "/tags/#{k}/"
+          if "/#{path}" == "/tags/#{k}"
+            nav "#{k} (#{v.length})", :'hashtag', "/tags/#{k}"
+          else
+            nav "#{k} (#{v.length})", :tag, "/tags/#{k}"
+          end
         end
       end
 
