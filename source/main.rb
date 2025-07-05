@@ -12,11 +12,20 @@ def create_page(inf:, path:, title:, &block)
 
     menu do
 
+      cats_open = false
       inf[:categories].each do |k, v|
-        if "#{path}" == "categories/#{k}"
-          nav k, :'folder-open', "/categories/#{k}"
-        else
-          nav k, :'folder', "/categories/#{k}"
+        if "/#{path}" == "/categories/#{k}"
+          cats_open = true
+        end
+      end
+
+      nav 'Categories', :folder, '', open: cats_open do
+        inf[:categories].each do |k, v|
+          if "#{path}" == "categories/#{k}"
+            nav k, :'folder-open', "/categories/#{k}"
+          else
+            nav k, :'folder', "/categories/#{k}"
+          end
         end
       end
 
